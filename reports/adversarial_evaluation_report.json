@@ -1,0 +1,80 @@
+{
+  "report_type": "adversarial_component_evaluation",
+  "synthetic_data_only": true,
+  "total_cases": 5,
+  "passed_cases": 5,
+  "failed_cases": 0,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "case_id": "ADV001",
+      "scenario": "BENIGN_LOOKALIKE",
+      "expected_disposition": "CLOSE_OR_REVIEW",
+      "observed": {
+        "suspicious_pattern_detected": false,
+        "finding_count": 0
+      },
+      "passed": true,
+      "error": null,
+      "test_scope": "component-level"
+    },
+    {
+      "case_id": "ADV002",
+      "scenario": "RAPID_LARGE_TRANSFERS",
+      "expected_disposition": "ESCALATE",
+      "observed": {
+        "detected": true,
+        "finding_count": 1
+      },
+      "passed": true,
+      "error": null,
+      "test_scope": "component-level"
+    },
+    {
+      "case_id": "ADV003",
+      "scenario": "SANCTIONS_NAME_AMBIGUITY",
+      "expected_disposition": "ESCALATE",
+      "observed": {
+        "candidate_found": true,
+        "match_type": "FUZZY",
+        "score": 96.77
+      },
+      "passed": true,
+      "error": null,
+      "test_scope": "component-level"
+    },
+    {
+      "case_id": "ADV004",
+      "scenario": "STRUCTURING",
+      "expected_disposition": "ESCALATE",
+      "observed": {
+        "detected": true,
+        "finding_count": 1
+      },
+      "passed": true,
+      "error": null,
+      "test_scope": "component-level"
+    },
+    {
+      "case_id": "ADV005",
+      "scenario": "UNRELATED_EVIDENCE",
+      "expected_disposition": "REJECT_INVALID_EVIDENCE",
+      "observed": {
+        "citation_valid": false,
+        "validation_errors": [
+          "Transaction TXN001 belongs to a different customer.",
+          "Transaction TXN001 is not linked to alert ALERT002."
+        ]
+      },
+      "passed": true,
+      "error": null,
+      "test_scope": "component-level"
+    }
+  ],
+  "limitations": [
+    "Scenario definitions are metadata; this harness executes targeted component checks.",
+    "The sanctions test uses a fictional reference name, not an official sanctions list.",
+    "A passing component check does not establish production AML effectiveness.",
+    "The benign-lookalike check only tests the repeated-transfer rule, not every possible typology."
+  ]
+}

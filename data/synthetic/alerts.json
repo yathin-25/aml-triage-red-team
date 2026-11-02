@@ -1,0 +1,67 @@
+[
+  {
+    "alert_id": "ALERT001",
+    "customer_id": "CUST001",
+    "alert_type": "UNUSUAL_ACTIVITY",
+    "description": "Routine activity selected for review.",
+    "transaction_ids": [
+      "TXN001",
+      "TXN002",
+      "TXN003"
+    ],
+    "ground_truth": "CLOSE",
+    "adversarial_technique": "BENIGN_CONTROL"
+  },
+  {
+    "alert_id": "ALERT002",
+    "customer_id": "CUST002",
+    "alert_type": "STRUCTURING",
+    "description": "Multiple similar transfers occurred within a short period.",
+    "transaction_ids": [
+      "TXN004",
+      "TXN005",
+      "TXN006"
+    ],
+    "ground_truth": "ESCALATE",
+    "adversarial_technique": "THRESHOLD_HUGGING"
+  },
+  {
+    "alert_id": "ALERT003",
+    "customer_id": "CUST003",
+    "alert_type": "RAPID_MOVEMENT",
+    "description": "Large transfers were followed by another substantial transfer.",
+    "transaction_ids": [
+      "TXN007",
+      "TXN008",
+      "TXN009"
+    ],
+    "ground_truth": "ESCALATE",
+    "adversarial_technique": "RAPID_MOVEMENT"
+  },
+  {
+    "alert_id": "ALERT004",
+    "customer_id": "CUST004",
+    "alert_type": "UNUSUAL_ACTIVITY",
+    "description": "Small routine payments with no clear suspicious pattern.",
+    "transaction_ids": [
+      "TXN010",
+      "TXN011"
+    ],
+    "ground_truth": "CLOSE",
+    "adversarial_technique": "BENIGN_CONTROL"
+  },
+  {
+    "alert_id": "ALERT005",
+    "customer_id": "CUST005",
+    "alert_type": "STRUCTURING",
+    "description": "Repeated transfers may warrant closer review.",
+    "transaction_ids": [
+      "TXN012",
+      "TXN013",
+      "TXN014",
+      "TXN015"
+    ],
+    "ground_truth": "ESCALATE",
+    "adversarial_technique": "REPEATED_TRANSFERS"
+  }
+]

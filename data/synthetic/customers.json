@@ -1,0 +1,37 @@
+[
+  {
+    "customer_id": "CUST001",
+    "name": "Aarav Example",
+    "occupation": "Software Engineer",
+    "risk_rating": "LOW",
+    "country": "US"
+  },
+  {
+    "customer_id": "CUST002",
+    "name": "Mira Sample",
+    "occupation": "Small Business Owner",
+    "risk_rating": "MEDIUM",
+    "country": "US"
+  },
+  {
+    "customer_id": "CUST003",
+    "name": "Dev Fictional",
+    "occupation": "Import Export Trader",
+    "risk_rating": "HIGH",
+    "country": "US"
+  },
+  {
+    "customer_id": "CUST004",
+    "name": "Tara Demo",
+    "occupation": "Consultant",
+    "risk_rating": "LOW",
+    "country": "US"
+  },
+  {
+    "customer_id": "CUST005",
+    "name": "Noah Test",
+    "occupation": "Retail Business Owner",
+    "risk_rating": "MEDIUM",
+    "country": "US"
+  }
+]

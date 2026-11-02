@@ -1,0 +1,10 @@
+langgraph
+langchain
+langsmith
+langchain-openai
+pydantic
+python-dotenv
+pandas
+rapidfuzz
+pytest
+matplotlib

@@ -1,0 +1,137 @@
+[
+  {
+    "transaction_id": "TXN001",
+    "customer_id": "CUST001",
+    "counterparty_name": "Example Grocery",
+    "amount": 85.5,
+    "currency": "USD",
+    "timestamp": "2026-10-01T09:00:00Z",
+    "transaction_type": "CARD_PAYMENT"
+  },
+  {
+    "transaction_id": "TXN002",
+    "customer_id": "CUST001",
+    "counterparty_name": "Example Utilities",
+    "amount": 120.0,
+    "currency": "USD",
+    "timestamp": "2026-10-02T10:00:00Z",
+    "transaction_type": "BILL_PAYMENT"
+  },
+  {
+    "transaction_id": "TXN003",
+    "customer_id": "CUST001",
+    "counterparty_name": "Example Salary Services",
+    "amount": 3200.0,
+    "currency": "USD",
+    "timestamp": "2026-10-03T08:00:00Z",
+    "transaction_type": "SALARY"
+  },
+  {
+    "transaction_id": "TXN004",
+    "customer_id": "CUST002",
+    "counterparty_name": "Sample Electronics",
+    "amount": 9800.0,
+    "currency": "USD",
+    "timestamp": "2026-10-04T11:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN005",
+    "customer_id": "CUST002",
+    "counterparty_name": "Sample Electronics",
+    "amount": 9700.0,
+    "currency": "USD",
+    "timestamp": "2026-10-04T13:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN006",
+    "customer_id": "CUST002",
+    "counterparty_name": "Sample Electronics",
+    "amount": 9600.0,
+    "currency": "USD",
+    "timestamp": "2026-10-04T15:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN007",
+    "customer_id": "CUST003",
+    "counterparty_name": "Fictional Overseas Trading",
+    "amount": 25000.0,
+    "currency": "USD",
+    "timestamp": "2026-10-05T09:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN008",
+    "customer_id": "CUST003",
+    "counterparty_name": "Fictional Overseas Trading",
+    "amount": 24800.0,
+    "currency": "USD",
+    "timestamp": "2026-10-05T09:30:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN009",
+    "customer_id": "CUST003",
+    "counterparty_name": "Demo International Services",
+    "amount": 49000.0,
+    "currency": "USD",
+    "timestamp": "2026-10-05T10:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN010",
+    "customer_id": "CUST004",
+    "counterparty_name": "Demo Office Supplies",
+    "amount": 240.0,
+    "currency": "USD",
+    "timestamp": "2026-10-06T12:00:00Z",
+    "transaction_type": "CARD_PAYMENT"
+  },
+  {
+    "transaction_id": "TXN011",
+    "customer_id": "CUST004",
+    "counterparty_name": "Demo Internet Services",
+    "amount": 75.0,
+    "currency": "USD",
+    "timestamp": "2026-10-07T12:00:00Z",
+    "transaction_type": "BILL_PAYMENT"
+  },
+  {
+    "transaction_id": "TXN012",
+    "customer_id": "CUST005",
+    "counterparty_name": "Test Wholesale Market",
+    "amount": 12000.0,
+    "currency": "USD",
+    "timestamp": "2026-10-08T08:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN013",
+    "customer_id": "CUST005",
+    "counterparty_name": "Test Wholesale Market",
+    "amount": 11800.0,
+    "currency": "USD",
+    "timestamp": "2026-10-08T09:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN014",
+    "customer_id": "CUST005",
+    "counterparty_name": "Test Wholesale Market",
+    "amount": 11600.0,
+    "currency": "USD",
+    "timestamp": "2026-10-08T10:00:00Z",
+    "transaction_type": "WIRE"
+  },
+  {
+    "transaction_id": "TXN015",
+    "customer_id": "CUST005",
+    "counterparty_name": "Example Community Charity",
+    "amount": 500.0,
+    "currency": "USD",
+    "timestamp": "2026-10-09T10:00:00Z",
+    "transaction_type": "DONATION"
+  }
+]
